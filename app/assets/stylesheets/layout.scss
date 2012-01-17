@@ -1,0 +1,70 @@
+@import 'blueprint/reset';
+@import 'blueprint';
+@import 'compass';
+
+//Global Settings//////////////////////////////////////////////////
+body
+{
+	font-family: "PT Sans", sans-serif, "Lucida Console", Monospace, "Times New Roman";
+
+  //Hide horizontal scroll bar
+  overflow-x: hidden;
+  overflow-y: scroll;
+  overflow: -moz-scrollbars-vertical;
+}
+
+a
+{
+	color: orange;
+  text-decoration: none;
+}
+
+ul
+{
+  list-style-type: none;
+}
+
+p, ul
+{
+  font-size-adjust: 0.488;
+  font-weight: 200;
+  font-style: normal;
+}
+
+h1
+{
+  font-size: 8em;
+}
+
+h2
+{
+	font-size: 2em;
+}
+
+h3
+{
+	font-size: 1.5em;
+	font-weight: 20;
+}
+
+img
+{
+  border: 0;
+}
+
+p
+{
+  em
+  {
+    font-weight: 700;
+  }
+}
+//////////////////////////////////////////////////
+
+#mainDiv
+{
+
+  #content
+  {
+  }
+}

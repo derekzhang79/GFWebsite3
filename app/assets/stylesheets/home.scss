@@ -1,0 +1,115 @@
+@import 'layout';
+
+#home{
+}
+
+#spacer {
+	width: 1124px;
+	height: 840px;
+	padding: 10px;
+  left: 0px;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#about {
+	background: image-url('homepg/topleft.png');
+	width: 410px;
+	height: 260px;
+	padding-bottom: 154px;
+	padding-top: 21px;
+	padding-left: 21px;
+	padding-right: 21px;
+	position: absolute;
+	z-index: 1;
+}
+
+#design {
+	background: image-url('homepg/topright.png');
+	width: 410px;
+	height: 260px;
+	padding-bottom: 154px;
+	padding-top: 21px;
+	padding-left: 21px;
+	padding-right: 21px;
+	position: absolute;
+	left: 790px;
+	z-index: 1;
+}
+
+#development {
+	background: image-url('homepg/bottomleft.png');
+	width: 410px;
+	height: 260px;
+	padding-top: 154px;
+	padding-bottom: 21px;
+	padding-left: 21px;
+	padding-right: 21px;
+	position: absolute;
+	top: 410px;
+	z-index: 1;
+}
+
+#interactive {
+	background: image-url('homepg/bottomright.png');
+	width: 410px;
+	height: 260px;
+	padding-top: 154px;
+	padding-bottom: 21px;
+	padding-left: 21px;
+	padding-right: 21px;
+	position: absolute;
+	top: 410px;
+	left: 790px;
+	z-index: 1;
+}
+
+#center {
+	background: image-url('homepg/centerbg.png');
+	width: 286px;
+	height: 465px;
+	padding: 12px;
+	position: absolute;
+	top: 190px;
+	left: 528px;
+	z-index: 0;
+}
+
+#contact {
+	background: image-url('homepg/contactinfo.png');
+	width: 326px;
+	height: 44px;
+	padding: 12px;
+	top: 400px;
+	left: 506px;
+	padding-top: 15px;
+	padding-left: 15px;
+	position: absolute;
+	cursor: pointer;
+	z-index: 1;
+}
+
+#fullSite {
+	background: image-url('homepg/fullsitelink.png');
+	width: 230px;
+	height: 173px;
+	padding: 12px;
+	left: 27px;
+	position: absolute;
+	cursor: pointer;
+	z-index: 14;
+	z-index: 1;
+}
+
+#testLink {
+	background: image-url('homepg/testlink.png');
+	width: 230px;
+	height: 173px;
+	padding: 12px;
+	left: 27px;
+	bottom: 12px;
+	position: absolute;
+	cursor: pointer;
+	z-index: 14;
+}

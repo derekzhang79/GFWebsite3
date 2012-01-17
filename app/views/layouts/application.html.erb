@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>GFWebsite3</title>
+	<link rel="shortcut icon" href="favicon.ico"> <link rel="shortcut icon" href="favicon.gif">
+	
+	<meta name="keywords" content="Web Design, Web Development, Internet Marketing, Social Media, Interactive Media, Interactive Marketing, Tampa Web design, Website Design Tampa, Web Design Florida">
+	<meta name="Robots" content="INDEX,FOLLOW">
+	<meta nmae="distribution" content"global">
+	<meta name="google-site-verification" content="zKh6hWN5szP7ZTr2LTj-xMDnUtuouH_i0x2dA-b2Swc" />
+	<meta name="description" content="Professional Web Design and Development in Tampa, Florida, The best internet marketing strategies, click to learn more.">
+
+  <title>Web Design, Development, Internet Marketing Tampa | Ground Floor Interactive</title>
   <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "application" %>
+	<link href='http://fonts.googleapis.com/css?family=Duru+Sans' rel='stylesheet' type='text/css' />
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
+<div id="mainDiv">
+
+	<div id="content">
+	  <%= yield %>
+	</div>
+</div>
 
 </body>
 </html>
