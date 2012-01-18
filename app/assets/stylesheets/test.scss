@@ -207,9 +207,14 @@
 }
 
 #socialStat {
+	p{
+		font-size: 0.8em;
+	}
 	background: image-url('test/questions.png');
-	width: 238px;
+	width: 198px;
 	height: 156px;
+	padding-left: 20px;
+	padding-right: 20px;
 	text-align: center;
 	padding-top: 40px;
 	color: #467373;
