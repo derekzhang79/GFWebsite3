@@ -5,7 +5,7 @@
 
 #spacer {
 	width: 1150px;
-	height: 900px;
+	height: 950px;
 	padding: 10px;
   left: 0px;
 	right: 0;
@@ -60,7 +60,6 @@
 /*---------------------------design top right -------------------------------------*/
 
 #design {
-	
 	background: image-url('homepg/new/designbox.png');
 	width: 270px;
 	height: 180px;
@@ -104,11 +103,16 @@
 /*---------------------------dev bottom left -------------------------------------*/
 
 #development {
+	background: image-url('homepg/new/devbox.png');
 	width: 270px;
 	height: 180px;
 	padding: 20px;
 	position: absolute;
-	top: 410px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 850px;
+	top: 740px;
 	z-index: 1;
 }
 
@@ -119,7 +123,7 @@
 	position: absolute;
   right: 350px;
 	left: 0;
-	top: 600px;
+	top: 640px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -127,11 +131,11 @@
 #devArrow{
 	background: image-url('homepg/new/devarrow.png');
 	width: 265px;
-	height: 107px;
+	height: 110px;
 	position: absolute;
-  right: 300px;
+  right: 250px;
 	left: 0;
-	top: 700px;
+	top: 740px;
 	margin-left: auto;
 	margin-right: auto;
 	z-index: 5;
