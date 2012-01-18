@@ -143,15 +143,16 @@
 
 #interactive {
 	background: image-url('homepg/new/socialbox.png');
+	z-index: 5;
 	width: 270px;
 	height: 180px;
 	padding: 20px;
 	position: absolute;
-	top: 460px;
-	left: 950px;
 	margin-left: auto;
 	margin-right: auto;
-	z-index: 5;
+	left: 850px;
+	right: 0;
+	top: 460px;
 }
 
 #interactiveHead {
