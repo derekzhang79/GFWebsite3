@@ -29,6 +29,7 @@
 	right: 0;
 	margin-left: auto;
 	margin-right: auto;
+	z-index: 5;
 }
 
 #yesHappy {
@@ -40,11 +41,12 @@
 	padding-top: 35px;
 	padding-right: 6px;
 	position: absolute;
-  left: -300px;
+  left: -310px;
 	right: 0;
-	top: 300px;
+	top: 310px;
 	margin-left: auto;
 	margin-right: auto;
+	z-index: 5;
 }
 
 #noHappy {
@@ -56,13 +58,14 @@
 	padding-top: 35px;
 	position: absolute;
   left: 0;
-	right: -300px;
-	top: 300px;
+	right: -320px;
+	top: 310px;
 	margin-left: auto;
 	margin-right: auto;
+	z-index: 5;
 }
 
-#social {
+#socialBubble {
 	background: image-url('test/questions.png');
 	width: 238px;
 	height: 146px;
@@ -72,9 +75,10 @@
 	position: absolute;
   left: -650px;
 	right: 0;
-	top: 110px;
+	top: 128px;
 	margin-left: auto;
 	margin-right: auto;
+	z-index: 5;
 }
 
 #noSocial {
@@ -87,9 +91,10 @@
 	position: absolute;
   left: -750px;
 	right: 0;
-	top: 420px;
+	top: 428px;
 	margin-left: auto;
 	margin-right: auto;
+	z-index: 5;
 }
 
 #yesSocial {
@@ -102,9 +107,10 @@
 	position: absolute;
   left: -250px;
 	right: 0;
-	top: 600px;
+	top: 650px;
 	margin-left: auto;
 	margin-right: auto;
+	z-index: 5;
 }
 
 #designTest {
@@ -117,9 +123,26 @@
 	position: absolute;
   left: -20px;
 	right: 0;
-	top: 400px;
+	top: 420px;
 	margin-left: auto;
 	margin-right: auto;
+	z-index: 5;
+}
+
+#noDesign {
+	background: image-url('test/yesno.png');
+	width: 138px;
+	height: 81px;
+	text-align: center;
+	color: #467373;
+	padding-top: 35px;
+	position: absolute;
+  left: 0;
+	right: -400px;
+	top: 625px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 5;
 }
 
 #functionality {
@@ -131,8 +154,298 @@
 	color: #467373;
 	position: absolute;
   left: 0;
-	right: -550px;
-	top: 410px;
+	right: -580px;
+	top: 407px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 5;
+}
+
+#noFunction {
+	background: image-url('test/yesno.png');
+	width: 138px;
+	height: 81px;
+	text-align: center;
+	color: #467373;
+	padding-top: 35px;
+	position: absolute;
+  left: 0;
+	right: -800px;
+	top: 635px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 5;
+}
+
+#designStat {
+	background: image-url('test/questions.png');
+	width: 238px;
+	height: 156px;
+	text-align: center;
+	padding-top: 40px;
+	color: #467373;
+	position: absolute;
+  left: 0;
+	right: -130px;
+	top: 720px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 5;
+}
+
+#functionStat {
+	background: image-url('test/questions.png');
+	width: 238px;
+	height: 156px;
+	text-align: center;
+	padding-top: 40px;
+	color: #467373;
+	position: absolute;
+  left: 0;
+	right: -600px;
+	top: 780px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 5;
+}
+
+#socialStat {
+	background: image-url('test/questions.png');
+	width: 238px;
+	height: 156px;
+	text-align: center;
+	padding-top: 40px;
+	color: #467373;
+	position: absolute;
+  left: -670px;
+	right: 0;
+	top: 655px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 5;
+}
+
+#contactUsTest {
+	background: image-url('test/finish.png');
+	width: 410px;
+	height: 205px;
+	text-align: center;
+	padding-top: 130px;
+	color: #467373;
+	position: absolute;
+  left: -375px;
+	right: 0;
+	top: 880px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 5;
+}
+
+
+/*------------arrows for test---------------*/
+
+#happyYesArrow {
+	background: image-url('test/arrows/1styes.png');
+	width: 40px;
+	height: 58px;
+	position: absolute;
+  left: -240px;
+	right: 0;
+	top: 260px;
 	margin-left: auto;
 	margin-right: auto;
 }
+
+#socialArrow {
+	background: image-url('test/arrows/yeshappy.png');
+	width: 45px;
+	height: 47px;
+	position: absolute;
+  left: -445px;
+	right: 0;
+	top: 288px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#socialNoArrow {
+	background: image-url('test/arrows/nosocial.png');
+	width: 35px;
+	height: 118px;
+	position: absolute;
+  left: -720px;
+	right: 0;
+	top: 315px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#socialYesArrow {
+	background: image-url('test/arrows/yessocial.png');
+	width: 145px;
+	height: 350px;
+	position: absolute;
+  left: -420px;
+	right: 0;
+	top: 306px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#happyNoArrow {
+	background: image-url('test/arrows/1stno.png');
+	width: 40px;
+	height: 58px;
+	position: absolute;
+  right: -240px;
+	left: 0;
+	top: 262px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#functionNoArrow {
+	background: image-url('test/arrows/1stno.png');
+	width: 40px;
+	height: 58px;
+	position: absolute;
+  right: -690px;
+	left: 0;
+	top: 590px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#happyNoDesign {
+	background: image-url('test/arrows/1styes.png');
+	width: 40px;
+	height: 58px;
+	position: absolute;
+  right: -210px;
+	left: 0;
+	top: 405px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#happyNoFunction {
+	background: image-url('test/arrows/smallest.png');
+	width: 25px;
+	height: 29px;
+	position: absolute;
+  right: -420px;
+	left: 0;
+	top: 403px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#finalFunctionArrow {
+	background: image-url('test/arrows/finalfunction.png');
+	width: 259px;
+	height: 130px;
+	position: absolute;
+  right: 0;
+	left: 120px;
+	top: 550px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#designNoArrow {
+	background: image-url('test/arrows/designno.png');
+	width: 81px;
+	height: 73px;
+	position: absolute;
+  right: 0;
+	left: 220px;
+	top: 575px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 6;
+}
+
+#noFunctionStat {
+	background: image-url('test/arrows/1styes.png');
+	width: 40px;
+	height: 58px;
+	position: absolute;
+  left: 0px;
+	right: -700px;
+	top: 732px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#designStatArrow {
+	background: image-url('test/arrows/smallestflip.png');
+	width: 25px;
+	height: 29px;
+	position: absolute;
+  left: 0px;
+	right: -300px;
+	top: 720px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#designStatFinal {
+	background: image-url('test/arrows/nosocial.png');
+	width: 35px;
+	height: 118px;
+	position: absolute;
+  left: 0px;
+	right: 285px;
+	top: 765px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#noDesignStat {
+	background: image-url('test/arrows/1styes.png');
+	width: 40px;
+	height: 58px;
+	position: absolute;
+  left: 0px;
+	right: 0px;
+	top: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#noSocialStat {
+	background: image-url('test/arrows/1stno.png');
+	width: 40px;
+	height: 58px;
+	position: absolute;
+  left: 0px;
+	right: 530px;
+	top: 830px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#noSocialArrow {
+	background: image-url('test/arrows/statsocial.png');
+	width: 42px;
+	height: 127px;
+	position: absolute;
+  left: 0px;
+	right: 700px;
+	top: 535px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#functionStatFinal {
+	background: image-url('test/arrows/yesfunction.png');
+	width: 194px;
+	height: 82px;
+	position: absolute;
+  right: 0;
+	left: 200px;
+	top: 910px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
