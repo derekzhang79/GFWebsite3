@@ -5,7 +5,7 @@
 
 #spacer {
 	width: 1150px;
-	height: 840px;
+	height: 900px;
 	padding: 10px;
   left: 0px;
 	right: 0;
@@ -112,6 +112,30 @@
 	z-index: 1;
 }
 
+#devHead {
+	background: image-url('homepg/new/dev.png');
+	width: 588px;
+	height: 116px;
+	position: absolute;
+  right: 350px;
+	left: 0;
+	top: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#devArrow{
+	background: image-url('homepg/new/devarrow.png');
+	width: 265px;
+	height: 107px;
+	position: absolute;
+  right: 300px;
+	left: 0;
+	top: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 5;
+}
 /*---------------------------dev bottom left END -------------------------------------*/
 
 /*---------------------------social bottom right -------------------------------------*/
@@ -149,7 +173,7 @@
 #fullSite {
 	background: image-url('homepg/new/fullsite.png');
 	width: 334px;
-	height: 207px;
+	height: 163px;
 	position: absolute;
 	padding-top: 200px;
 	padding-left: 40px;
