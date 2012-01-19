@@ -175,13 +175,18 @@
 }
 
 #designStat {
-	background: image-url('test/questions.png');
-	width: 238px;
-	height: 156px;
-	text-align: center;
-	padding-top: 40px;
-	color: #467373;
-	position: absolute;
+	p{
+		font-size: 0.8em;
+	}
+		background: image-url('test/questions.png');
+		width: 198px;
+		height: 146px;
+		padding-left: 20px;
+		padding-right: 20px;
+		text-align: center;
+		padding-top: 50px;
+		color: #467373;
+		position: absolute;
   left: 0;
 	right: -130px;
 	top: 720px;
@@ -191,13 +196,18 @@
 }
 
 #functionStat {
-	background: image-url('test/questions.png');
-	width: 238px;
-	height: 156px;
-	text-align: center;
-	padding-top: 40px;
-	color: #467373;
-	position: absolute;
+	p{
+		font-size: 0.8em;
+	}
+		background: image-url('test/questions.png');
+		width: 198px;
+		height: 146px;
+		padding-left: 20px;
+		padding-right: 20px;
+		text-align: center;
+		padding-top: 50px;
+		color: #467373;
+		position: absolute;
   left: 0;
 	right: -600px;
 	top: 780px;
@@ -208,7 +218,7 @@
 
 #socialStat {
 	p{
-		font-size: 0.8em;
+		font-size: 0.75em;
 	}
 	background: image-url('test/questions.png');
 	width: 198px;
