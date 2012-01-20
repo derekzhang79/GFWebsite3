@@ -4,8 +4,8 @@
 }
 
 #spacer {
-	width: 1150px;
-	height: 970px;
+	width: 1050px;
+	height: 860px;
 	padding: 10px;
   left: 0px;
 	right: 0;
@@ -26,30 +26,35 @@
 	margin-right: auto;	
 }
 
-#aboutArrow{
-	background: image-url('homepg/new/aboutus.png');
-	height: 108px;
-	width: 187px;
+#aboutUs {
+	height: 200px;
+	width: 500px;
 	position: absolute;
-  left: -740px;
+  left: -500px;
 	right: 0;
-	top: 70px;
 	margin-left: auto;
 	margin-right: auto;
+	z-index: 10;
 }
 
-#about {
-	background: image-url('homepg/new/aboutbox.png');
-	width: 270px;
-	height: 180px;
-	padding: 20px;
-	position: absolute;
-  left: -880px;
-	top: 180px;
+#aboutHead {
+	height: 30px;
+	width: 500px;
+  left: 0;
 	right: 0;
 	margin-left: auto;
 	margin-right: auto;
-	z-index: 5;
+	color: #335864;
+}
+
+#aboutInfo {
+	height: 60px;
+	width: 500px;
+  left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	color: #5f838f;
 }
 
 /*---------------------------about top left END -------------------------------------*/
@@ -57,182 +62,162 @@
 /*---------------------------design top right -------------------------------------*/
 
 #design {
-	background: image-url('homepg/new/designbox.png');
-	width: 270px;
-	height: 180px;
-	padding: 20px;
+	height: 200px;
+	width: 350px;
 	position: absolute;
-  right: -880px;
-	top: 200px;
-	left: 0;
-	margin-left: auto;
-	margin-right: auto;
-	z-index: 5;
-}
-
-#designHead{
-	background: image-url('homepg/new/design.png');
-	width: 422px;
-	height: 147px;
-	position: absolute;
-  right: -350px;
-	left: 0;
 	top: 50px;
-	margin-left: auto;
-	margin-right: auto;	
-}
-
-#designArrow{
-	background: image-url('homepg/new/designarrow.png');
-	width: 265px;
-	height: 107px;
-	position: absolute;
-  right: -300px;
-	left: 0;
-	top: 170px;
+  left: 650px;
+	right: 0;
 	margin-left: auto;
 	margin-right: auto;
-	z-index: 5;
+	z-index: 10;
+}
+
+#designHead {
+	height: 30px;
+	width: 350px;
+  left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	color: #386433;
+}
+
+#designInfo {
+	height: 60px;
+	width: 350px;
+  left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	color: #59a56d;
 }
 
 /*---------------------------design top right END -------------------------------------*/
 
 /*---------------------------dev bottom left -------------------------------------*/
 
-#development {
-	background: image-url('homepg/new/devbox.png');
-	width: 270px;
-	height: 180px;
-	padding: 20px;
+#dev {
+	height: 200px;
+	width: 500px;
 	position: absolute;
+	top: 670px;
+  left: -500px;
+	right: 0;
 	margin-left: auto;
 	margin-right: auto;
-	left: 0;
-	right: 850px;
-	top: 740px;
-	z-index: 1;
 }
 
 #devHead {
-	background: image-url('homepg/new/dev.png');
-	width: 588px;
-	height: 116px;
-	position: absolute;
-  right: 350px;
-	left: 0;
-	top: 640px;
+	height: 30px;
+	width: 450px;
+  left: 0;
+	right: 0;
 	margin-left: auto;
 	margin-right: auto;
+	color: #5c4e3a;
 }
 
-#devArrow{
-	background: image-url('homepg/new/devarrow.png');
-	width: 265px;
-	height: 110px;
-	position: absolute;
-  right: 250px;
-	left: 0;
-	top: 740px;
+#devInfo {
+	height: 60px;
+	width: 450px;
+  left: 0;
+	right: 0;
 	margin-left: auto;
 	margin-right: auto;
-	z-index: 5;
+	color: #ae9472;
 }
 /*---------------------------dev bottom left END -------------------------------------*/
 
 /*---------------------------social bottom right -------------------------------------*/
 
 #interactive {
-	background: image-url('homepg/new/socialbox.png');
-	z-index: 5;
-	width: 270px;
-	height: 180px;
-	padding: 20px;
+	height: 200px;
+	width: 350px;
 	position: absolute;
+	top: 620px;
+  left: 650px;
+	right: 0;
 	margin-left: auto;
 	margin-right: auto;
-	left: 850px;
-	right: 0;
-	top: 460px;
+	z-index: 10;
 }
 
 #interactiveHead {
-	background: image-url('homepg/new/social.png');
-	width: 363px;
-	height: 141px;
-	position: absolute;
-  right: -500px;
-	left: 0;
-	top: 820px;
+	height: 70px;
+	width: 350px;
+  left: 0;
+	right: 0;
 	margin-left: auto;
 	margin-right: auto;
+	color: #3b425e;
 }
 
-#socialPointer{
-	background: image-url('homepg/new/socialarrow.png');
-	width: 107px;
-	height: 265px;
-	position: absolute;
-  right: -880px;
-	left: 0;
-	top: 680px;
+#interactiveInfo {
+	height: 60px;
+	width: 350px;
+  left: 0;
+	right: 0;
 	margin-left: auto;
 	margin-right: auto;
-	z-index: 5;
+	color: #656e92;
 }
 
 /*---------------------------social bottom right END-------------------------------------*/
 
 #contactButton {
 	background: image-url('homepg/new/contactbutton.png');
-	width: 484px;
-	height: 125px;
-	padding-top: 145px;
-	padding-right: 20px;
+	width: 430px;
+	height: 210px;
+	padding-top: 165px;
+	padding-left: 60px;
+	padding-right: 80px;
 	position: absolute;
   left: 0px;
-	top: 245px;
+	top: 110px;
 	right: 50px;
 	margin-left: auto;
 	margin-right: auto;
 	cursor: pointer;
 	z-index: 3;
 	text-align: center;
-	color: white;
+	color: #b67740;
 }
 
 #fullSite {
 	background: image-url('homepg/new/fullsite.png');
-	width: 334px;
-	height: 163px;
+	width: 204px;
+	height: 141px;
+	padding: 40px;
+	padding-left: 100px;
+	padding-top: 100px;
 	position: absolute;
-	padding-top: 200px;
-	padding-left: 40px;
   left: -380px;
-	top: 320px;
+	top: 380px;
 	right: 0;
 	margin-left: auto;
 	margin-right: auto;
 	cursor: pointer;
 	z-index: 2;
 	text-align: center;
-	color: white;
-	z-index: 2;
+	color: #a09c80;
 }
 
 #testLink {
 	background: image-url('homepg/new/testlink.png');
-	width: 480px;
-	height: 153px;
+	width: 270px;
+	height: 170px;
 	position: absolute;
-	padding-top: 155px;
-	padding-right: 70px;
+	padding-top: 105px;
+	padding-left: 110px;
+	padding-right: 170px;
   left: 0px;
-	top: 400px;
+	top: 380px;
 	right: -250px;
 	margin-left: auto;
 	margin-right: auto;
 	cursor: pointer;
 	z-index: 1;
 	text-align: center;
-	color: white;
+	color: #9f5757;
 }

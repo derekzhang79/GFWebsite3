@@ -1,3 +1,3 @@
 $(document).ready(function() {
-    document.title = 'GFI';
+    document.title = 'Ground Floor Interactive';
 });
