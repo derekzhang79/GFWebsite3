@@ -1,0 +1,95 @@
+@import 'compass/reset'
+
+//Global//////////////////////////////////////////////////
+//Content size
+$cSize: 1000px
+
+body
+    background: image-url('gfi/designtile2.png')
+    color: white
+
+h1, h2, h2, h3
+    font:
+        family: 'Accidental Presidency'
+        weight: bold
+
+h1
+    color: #61E191
+    
+    font:
+        size: 53px
+
+h2
+    font:
+        size: 34px
+
+h3
+    font:
+        size: 23px
+
+p
+    font:
+        family: 'Sans'
+////////////////////////////////////////////////////////////
+
+//Classes//////////////////////////////////////////////////
+hr.hrMain
+    width: $cSize
+    height: 1px
+    border: none
+    background:
+        color: #387875
+
+hr.hrSub
+    height: 1px
+    border: none
+    background:
+        color: #387875
+
+//////////////////////////////////////////////////
+
+//Main Layout//////////////////////////////////////////////////
+#mainDiv
+    #header
+        width: $cSize
+        height: 109px
+        margin:
+            top: 60px
+            bottom: -25px
+            left: auto
+            right: auto
+
+        //GFI logo
+        #logo
+            margin:
+                left: 70px
+                top: -10px
+            height: 100px
+            cursor: pointer
+            position: absolute
+        
+        //Navbar
+        #nav
+            margin:
+                top: 45px
+                right: 80px
+                bottom: -8px
+            
+            float: right
+
+            li, h1
+                display: inline
+                padding:
+                    right: 8px
+                cursor: pointer
+
+                &:hover
+                    color: #a7e169
+        
+    #content
+        clear: top
+        width: $cSize
+        margin:
+            left: auto
+            right: auto
+////////////////////////////////////////////////////////////

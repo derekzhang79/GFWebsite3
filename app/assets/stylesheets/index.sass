@@ -1,0 +1,82 @@
+#index
+    #slideshow
+        color: white
+        height: 300px
+
+    #info
+        padding:
+            bottom: 10px
+        overflow: auto
+
+        #flowChart
+            float: right
+            background:
+                color: #373738
+            width: 320px
+            text-align: center
+            margin:
+                left: 10px
+
+        #recentWorks
+            margin:
+                top: 50px
+
+            #previews
+                height: 230px
+                margin:
+                    top: 30px
+                    left: 22px
+
+                //The images
+                div
+                    cursor: pointer
+                    float: left
+
+                #tai
+                    $path: 'gfi/portfolio/tai2.png'
+                    
+                    height: image-height($path)
+                    width: image-width($path)/2
+                    background: image-url($path)
+                    
+                    &:hover
+                        background-position: image-width($path)/2
+
+                #nui
+                    $path: 'gfi/portfolio/nui2.png'
+                    
+                    height: image-height($path)
+                    width: image-width($path)/2
+                    background: image-url($path)
+                    
+                    &:hover
+                        background-position: image-width($path)/2
+    #ourServices
+        margin:
+            top: 30px
+            bottom: 30px
+
+        //All the block descriptions next to each other
+        #desc
+            width: 980px
+
+            margin:
+                top: 30px
+                left: auto
+                right: auto
+
+            padding:
+                top: 60px
+
+            height: 180px
+            background:
+                color: #474748
+
+            .block
+                width: 220px
+                float: left
+                padding:
+                    left: 20px
+
+                p
+                    margin-top: 20px
