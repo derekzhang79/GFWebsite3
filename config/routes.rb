@@ -4,6 +4,10 @@ GFWebsite3::Application.routes.draw do
   match 'test' => 'application#test'
   match 'about' => 'application#about'
   match 'about/team' => 'application#team'
+  match 'portfolio' => 'application#portfolio'
+  match 'services' => 'application#services'
+  match 'blog' => 'application#blog'
+  match 'contact' => 'application#contact'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -60,6 +60,9 @@ hr.hrSub
 
         //GFI logo
         #logo
+            margin:
+                top: -15px
+                
             float: left
             $path: 'logo.png'
             
@@ -77,15 +80,30 @@ hr.hrSub
                 bottom: -8px
             
             float: right
+            color: #61E191
+            text-decoration: none
 
-            li, h1
+            font:
+                family: 'Accidental Presidency'
+                weight: bold
+                size: 53px
+                text-decoration: none
+
+            li, a
                 display: inline
                 padding:
                     right: 8px
                 cursor: pointer
+                color: #61E191
+                text-decoration: none
 
+                &:visited
+                    color: #61E191
+                    text-decoration: none
+                
                 &:hover
                     color: #a7e169
+                    text-decoration: none
         
     #content
         width: $cSize

@@ -24,11 +24,11 @@
         <!-- Navbar -->
         <div id="nav">
             <ul>
-                <li><h1>ABOUT</h1></li>
-                <li><h1>PORTFOLIO</h1></li>
-                <li><h1>SERVICES</h1></li>
-                <li><h1>BLOG</h1></li>
-                <li><h1>CONTACT</h1></li>
+                <li><%= link_to_unless_current 'ABOUT',  :action => :about %></li>
+								<li><%= link_to_unless_current 'PORTFOLIO',  :action => :portfolio %></li>
+								<li><%= link_to_unless_current 'SERVICES',  :action => :services %></li>
+								<li><%= link_to_unless_current 'BLOG',  :action => :blog %></li>
+								<li><%= link_to_unless_current 'CONTACT',  :action => :contact %></li>
             </ul>
         </div>
 
