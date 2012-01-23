@@ -1,76 +1,95 @@
 /*
-Skin Name: Nivo Slider Default Theme
+Skin Name: Pascal Theme
 Skin URI: http://nivo.dev7studios.com
-Skin Type: flexible
-Description: The default skin for the Nivo Slider.
+Skin Type: fixed
+Image Width: 630
+Image Height: 235
+Description: A nice, light skin for the Nivo Slider.
 Version: 1.0
-Author: Gilbert Pellegrom
+Author: Gilbert Pellegrom & Pascal Gartner
 Author URI: http://dev7studios.com
 */
 
-.theme-default .nivoSlider {
-    height: 428px;
-    width: 911px;
-	position:relative;
-    margin-bottom:50px;
-    -webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
-    -moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
-    box-shadow: 0px 1px 5px 0px #4a4a4a;
+.theme-gfi.slider-wrapper {
+    background:url(gfi/slideshow/theme/slider.png) no-repeat;
+    margin:0 auto;
+    padding-top:17px;
+    position:relative;
+    width: 960px;
+    height: 475px;
 }
-.theme-default .nivoSlider img {
-	position:absolute;
-	top:0px;
-	left:0px;
+
+.theme-gfi .nivoSlider {
+    position:relative;
+    width:960px;
+    height:475px;
+    margin-left:23px;
+    margin-top: 8px;
+    background:url(gfi/slideshow/theme/loading.gif) no-repeat 50% 50%;
+}
+.theme-gfi .nivoSlider img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display:none;
+    width:912px; /* Make sure your images are the same size */
+    height:428px; /* Make sure your images are the same size */
+}
+.theme-gfi .nivoSlider a {
+    border:0;
+    display:block;
+}
+
+.theme-gfi .nivo-controlNav {
+    background:url(gfi/slideshow/theme/controlnav.png) no-repeat;
+    width:251px;
+    height:40px;
+    position:absolute;
+    left:385px; /* Tweak this to center bullets */
+    bottom:-10px;
+    padding:8px 0 0 82px;
+    z-index:20;
+}
+.theme-gfi .nivo-controlNav a {
+    left: -62px;
+    display:block;
+    width:22px;
+    height:12px;
+    background:url(gfi/slideshow/theme/bullets.png) no-repeat;
+    text-indent:-9999px;
+    border:0;
+    float:left;
+}
+.theme-gfi .nivo-controlNav a.active {
+    background-position:0 -15px;
+}
+
+.theme-gfi .nivo-directionNav a {
 	display:none;
 }
-.theme-default .nivoSlider a {
-	border:0;
-	display:block;
-}
 
-.theme-default .nivo-controlNav {
-	position:absolute;
-	left:50%;
-	bottom:-42px;
-    margin-left:-40px; /* Tweak this to center bullets */
+.theme-gfi .nivo-caption {
+    bottom:40%;
+    left:auto;
+    right:0px;
+    width:auto;
+    max-width:630px;
+    overflow:hidden;
+    background:#fff;
+    text-shadow:none;
+    font-family: arial, serif;
+    color:#4c4b4b;
 }
-.theme-default .nivo-controlNav a {
-	display:block;
-	width:22px;
-	height:22px;
-	background:image-url(gfi/bullets.png) no-repeat;
-	text-indent:-9999px;
-	border:0;
-	margin-right:3px;
-	float:left;
+.theme-gfi .nivo-caption p {
+    padding:5px 15px;
+    color:#333;
+    font-weight:bold;
+    font-size:27px;
+    text-transform:uppercase;
 }
-.theme-default .nivo-controlNav a.active {
-	background-position:0 -22px;
-}
-
-.theme-default .nivo-directionNav a {
-	display:block;
-	width:30px;
-	height:30px;
-	background:image-url(gfi/arrows.png) no-repeat;
-	text-indent:-9999px;
-	border:0;
-}
-.theme-default a.nivo-nextNav {
-	background-position:-30px 0;
-	right:15px;
-}
-.theme-default a.nivo-prevNav {
-	left:15px;
-}
-
-.theme-default .nivo-caption {
-    font-family: Helvetica, Arial, sans-serif;
-}
-.theme-default .nivo-caption a {
-    color:#fff;
-    border-bottom:1px dotted #fff;
-}
-.theme-default .nivo-caption a:hover {
-    color:#fff;
+.theme-gfi .nivo-caption a { 
+    color:#333;
+    font-weight:bold;
+    font-size:27px;
+    text-transform:uppercase;
 }
