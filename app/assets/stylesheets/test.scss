@@ -1,9 +1,5 @@
 @import 'layout';
 
-#test{
-	background: image-url('test/bgtile.png');
-}
-
 #spacer2 {
 	width: 900px;
 	height: 1300px;
@@ -40,7 +36,7 @@
 	position: absolute;
   left: -310px;
 	right: 0;
-	top: 310px;
+	top: 510px;
 	margin-left: auto;
 	margin-right: auto;
 	z-index: 5;
@@ -56,7 +52,7 @@
 	position: absolute;
   left: 0;
 	right: -320px;
-	top: 310px;
+	top: 510px;
 	margin-left: auto;
 	margin-right: auto;
 	z-index: 5;
@@ -74,7 +70,7 @@
 	position: absolute;
   left: -660px;
 	right: 0;
-	top: 100px;
+	top: 300px;
 	margin-left: auto;
 	margin-right: auto;
 	z-index: 5;
@@ -90,7 +86,7 @@
 	position: absolute;
   left: -750px;
 	right: 0;
-	top: 428px;
+	top: 628px;
 	margin-left: auto;
 	margin-right: auto;
 	z-index: 5;
@@ -106,7 +102,7 @@
 	position: absolute;
   left: -250px;
 	right: 0;
-	top: 650px;
+	top: 850px;
 	margin-left: auto;
 	margin-right: auto;
 	z-index: 5;
@@ -124,7 +120,7 @@
 	position: absolute;
   left: -20px;
 	right: 0;
-	top: 420px;
+	top: 620px;
 	margin-left: auto;
 	margin-right: auto;
 	z-index: 5;
@@ -140,7 +136,7 @@
 	position: absolute;
   left: 0;
 	right: -400px;
-	top: 625px;
+	top: 825px;
 	margin-left: auto;
 	margin-right: auto;
 	z-index: 5;
@@ -156,7 +152,7 @@
 	position: absolute;
   left: 0;
 	right: -580px;
-	top: 407px;
+	top: 607px;
 	margin-left: auto;
 	margin-right: auto;
 	z-index: 5;
@@ -172,7 +168,7 @@
 	position: absolute;
   left: 0;
 	right: -800px;
-	top: 635px;
+	top: 835px;
 	margin-left: auto;
 	margin-right: auto;
 	z-index: 5;
@@ -193,7 +189,7 @@
 		position: absolute;
   left: 0;
 	right: -130px;
-	top: 720px;
+	top: 920px;
 	margin-left: auto;
 	margin-right: auto;
 	z-index: 5;
@@ -214,7 +210,7 @@
 		position: absolute;
   left: 0;
 	right: -600px;
-	top: 780px;
+	top: 980px;
 	margin-left: auto;
 	margin-right: auto;
 	z-index: 5;
@@ -235,7 +231,7 @@
 	position: absolute;
   left: -670px;
 	right: 0;
-	top: 655px;
+	top: 855px;
 	margin-left: auto;
 	margin-right: auto;
 	z-index: 5;
@@ -253,7 +249,7 @@
 	position: absolute;
   left: -375px;
 	right: 0;
-	top: 880px;
+	top: 1080px;
 	margin-left: auto;
 	margin-right: auto;
 	z-index: 5;
@@ -269,7 +265,7 @@
 	position: absolute;
   left: -240px;
 	right: 0;
-	top: 260px;
+	top: 460px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -281,7 +277,7 @@
 	position: absolute;
   left: -445px;
 	right: 0;
-	top: 288px;
+	top: 488px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -293,7 +289,7 @@
 	position: absolute;
   left: -720px;
 	right: 0;
-	top: 315px;
+	top: 515px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -305,7 +301,7 @@
 	position: absolute;
   left: -420px;
 	right: 0;
-	top: 306px;
+	top: 506px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -317,7 +313,7 @@
 	position: absolute;
   right: -240px;
 	left: 0;
-	top: 262px;
+	top: 462px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -329,7 +325,7 @@
 	position: absolute;
   right: -690px;
 	left: 0;
-	top: 590px;
+	top: 790px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -341,7 +337,7 @@
 	position: absolute;
   right: -210px;
 	left: 0;
-	top: 405px;
+	top: 605px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -353,7 +349,7 @@
 	position: absolute;
   right: -420px;
 	left: 0;
-	top: 403px;
+	top: 603px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -365,7 +361,7 @@
 	position: absolute;
   right: 0;
 	left: 120px;
-	top: 550px;
+	top: 750px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -377,7 +373,7 @@
 	position: absolute;
   right: 0;
 	left: 220px;
-	top: 575px;
+	top: 775px;
 	margin-left: auto;
 	margin-right: auto;
 	z-index: 6;
@@ -390,7 +386,7 @@
 	position: absolute;
   left: 0px;
 	right: -700px;
-	top: 732px;
+	top: 932px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -402,7 +398,7 @@
 	position: absolute;
   left: 0px;
 	right: -300px;
-	top: 720px;
+	top: 920px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -414,7 +410,7 @@
 	position: absolute;
   left: 0px;
 	right: 285px;
-	top: 765px;
+	top: 965px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -426,7 +422,7 @@
 	position: absolute;
   left: 0px;
 	right: 0px;
-	top: 900px;
+	top: 1100px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -438,7 +434,7 @@
 	position: absolute;
   left: 0px;
 	right: 530px;
-	top: 830px;
+	top: 1030px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -450,7 +446,7 @@
 	position: absolute;
   left: 0px;
 	right: 700px;
-	top: 535px;
+	top: 735px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -462,7 +458,7 @@
 	position: absolute;
   right: 0;
 	left: 200px;
-	top: 910px;
+	top: 1110px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -474,7 +470,7 @@
 	position: absolute;
   left: 0px;
 	right: 150px;
-	top: 600px;
+	top: 800px;
 	margin-left: auto;
 	margin-right: auto;
 }

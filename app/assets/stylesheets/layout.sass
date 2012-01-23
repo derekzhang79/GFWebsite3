@@ -51,7 +51,7 @@ hr.hrSub
 #mainDiv
     #header
         width: $cSize
-        height: 109px
+        height: 120px
         margin:
             top: 60px
             bottom: -25px
@@ -60,18 +60,20 @@ hr.hrSub
 
         //GFI logo
         #logo
-            margin:
-                left: 70px
-                top: -10px
-            height: 100px
-            cursor: pointer
-            position: absolute
+						
+            $path: 'logo.png'
+            
+            height: image-height($path)
+            width: image-width($path)/2
+            background: image-url($path)
+            
+            &:hover
+                background-position: image-width($path)/2
         
         //Navbar
         #nav
             margin:
-                top: 45px
-                right: 80px
+                right: 30px
                 bottom: -8px
             
             float: right
