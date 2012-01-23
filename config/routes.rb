@@ -2,6 +2,8 @@ GFWebsite3::Application.routes.draw do
   root :to => 'application#index'
 
   match 'test' => 'application#test'
+  match 'about' => 'application#about'
+  match 'about/team' => 'application#team'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
