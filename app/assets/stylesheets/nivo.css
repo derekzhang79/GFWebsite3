@@ -32,8 +32,6 @@ Author URI: http://dev7studios.com
     top: 0px;
     left: 0px;
     display:none;
-    width:912px; /* Make sure your images are the same size */
-    height:428px; /* Make sure your images are the same size */
 }
 .theme-gfi .nivoSlider a {
     border:0;
