@@ -77,6 +77,7 @@ Author URI: http://dev7studios.com
     text-shadow:none;
     font-family: arial, serif;
     color:#4c4b4b;
+    opacity: .7;
 }
 .theme-gfi .nivo-caption p {
     padding:5px 15px;
