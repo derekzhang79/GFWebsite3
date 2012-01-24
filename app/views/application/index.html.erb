@@ -3,10 +3,10 @@
         <div id="wrapper">
         <div class="slider-wrapper theme-gfi">
             <div id="slider" class="nivoSlider">
- 				<%= image_tag 'gfi/slideshow/interactive.png', {"data-transition" => "boxRainGrow"} %>
-                <%= image_tag 'gfi/slideshow/design.png', {"data-transition" => "fold"} %>
-                <%= image_tag 'gfi/slideshow/dev.png', {"data-transition" => "boxRainGrow"} %>
-                <%= image_tag 'gfi/slideshow/branding.png', {"data-transition" => "boxRainReverse"} %>
+			    <%= image_tag 'gfi/slideshow/interactive.png', {"data-transition" => "boxRainGrow"} %>
+                <%= image_tag 'gfi/slideshow/design.png', {"data-transition" => "boxRandom"} %>
+                <%= image_tag 'gfi/slideshow/dev.png', {"data-transition" => "fade"} %>
+                <%= image_tag 'gfi/slideshow/branding.png', {"data-transition" => "fold"} %>
             </div>
         </div>
         </div>
@@ -17,27 +17,31 @@
     <!-- Recent works, etc -->
     <div id="info">
         <a href="test"><div id="flowChart">
-            <%= image_tag 'gfi/testlink.png' %>
         </div></a>
 
         <div id="recentWorks">
             <h1>RECENT WORKS</h1>
             
             <div id="previews">
-                <div id="tai"></div>
-                <div id="nui"></div>
+                <a href="portfolio/tai"><div id="tai"></div></a>
+                <a href="portfolio/nui"><div id="nui"></div></a>
             </div>
         </div>
-
+        
         <hr class="hrSub" />
+        
+        <div id="previews">
+            <h1>A LITTLE ABOUT US</h1>
+                <p>We're awesome as hell</p>
+
 
     </div>
 
-    <hr class="hrMain" />
+    
 
     <!-- Our Services -->
-    <div id="ourServices">
-        <h2>OUR SERVICES</h2>
+    <div id="ourServices"><hr class="hrMain" />
+        <h1>OUR SERVICES</h1>
 
         <div id="desc">
             <div class="block">

@@ -12,14 +12,19 @@
             bottom: 10px
         overflow: auto
 
+
         #flowChart
             float: right
-            background:
-                color: #373738
-            width: 320px
-            text-align: center
             margin:
                 left: 10px
+            $path: 'gfi/testlink.png'
+            
+            height: image-height($path)
+            width: image-width($path)/2
+            background: image-url($path)
+            
+            &:hover
+                background-position: image-width($path)/2
 
         #recentWorks
             margin:
@@ -74,7 +79,7 @@
 
             height: 180px
             background:
-                color: #474748
+                color: #373738
 
             .block
                 width: 220px
