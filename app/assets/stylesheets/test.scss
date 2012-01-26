@@ -25,14 +25,19 @@
 }
 
 #happy {
+    h2{
+    	color: #467373;
+    	font-size: 45px;
+    }
 	background: image-url('test/start.png');
-	width: 355px;
-	height: 216px;
+	width: 315px;
+	height: 186px;
 	text-align: center;
-	color: #467373;
-	padding-top: 75px;
+	padding-top: 105px;
+	padding-left: 20px;
+	padding-right: 20px;
 	position: absolute;
-  left: 0px;
+    left: 0px;
 	right: 0;
 	margin-left: auto;
 	margin-right: auto;
@@ -41,12 +46,14 @@
 }
 
 #yesHappy {
+    h2{
+    	color: #467373;
+    }
 	background: image-url('test/yesno.png');
 	width: 135px;
-	height: 106px;
+	height: 80px;
 	text-align: center;
-	color: #467373;
-	padding-top: 10px;
+	padding-top: 35px;
 	padding-right: 6px;
 	position: absolute;
   left: -310px;
@@ -58,12 +65,14 @@
 }
 
 #noHappy {
-	background: image-url('test/yesno.png');
-	width: 138px;
-	height: 106px;
+    h2{
+    	color: #467373;
+    }
+    background: image-url('test/yesno.png');
+	width: 135px;
+	height: 80px;
 	text-align: center;
-	color: #467373;
-	padding-top: 10px;
+	padding-top: 35px;
 	position: absolute;
   left: 0;
 	right: -320px;
@@ -74,11 +83,14 @@
 }
 
 #socialBubble {
+    h2{
+    	color: #467373;
+    }
 	background: image-url('test/questions2.png');
 	width: 222px;
-	height: 186px;
+	height: 154px;
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 60px;
 	padding-left: 20px;
 	padding-right: 20px;
 	color: #467373;
@@ -92,12 +104,14 @@
 }
 
 #noSocial {
+    h2{
+    	color: #467373;
+    }
 	background: image-url('test/yesno.png');
-	width: 138px;
-	height: 106px;
+	width: 135px;
+	height: 80px;
 	text-align: center;
-	color: #467373;
-	padding-top: 10px;
+	padding-top: 35px;
 	position: absolute;
   left: -750px;
 	right: 0;
@@ -108,12 +122,14 @@
 }
 
 #yesSocial {
+    h2{
+    	color: #467373;
+    }
 	background: image-url('test/yesno.png');
-	width: 138px;
-	height: 106px;
+	width: 135px;
+	height: 80px;
 	text-align: center;
-	color: #467373;
-	padding-top: 10px;
+	padding-top: 35px;
 	position: absolute;
   left: -250px;
 	right: 0;
@@ -124,11 +140,14 @@
 }
 
 #designTest {
+    h2{
+    	color: #467373;
+    }
 	background: image-url('test/questions.png');
 	width: 198px;
-	height: 156px;
+	height: 130px;
 	text-align: center;
-	padding-top: 40px;
+	padding-top: 65px;
 	padding-left: 20px;
 	padding-right: 20px;
 	color: #467373;
@@ -142,12 +161,14 @@
 }
 
 #noDesign {
+    h2{
+    	color: #467373;
+    }
 	background: image-url('test/yesno.png');
-	width: 138px;
-	height: 106px;
+	width: 135px;
+	height: 80px;
 	text-align: center;
-	color: #467373;
-	padding-top: 10px;
+	padding-top: 35px;
 	position: absolute;
   left: 0;
 	right: -400px;
@@ -158,11 +179,14 @@
 }
 
 #functionality {
+    h2{
+    	color: #467373;
+    }
 	background: image-url('test/questions.png');
 	width: 238px;
-	height: 166px;
+	height: 126px;
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 70px;
 	color: #467373;
 	position: absolute;
   left: 0;
@@ -174,12 +198,14 @@
 }
 
 #noFunction {
+    h2{
+    	color: #467373;
+    }
 	background: image-url('test/yesno.png');
-	width: 138px;
-	height: 106px;
+	width: 135px;
+	height: 80px;
 	text-align: center;
-	color: #467373;
-	padding-top: 10px;
+	padding-top: 35px;
 	position: absolute;
   left: 0;
 	right: -800px;
@@ -191,7 +217,9 @@
 
 #designStat {
 	p{
-		font-size: 0.8em;
+		font-size: 0.75em;
+		line-height: 1.5em;
+		padding-top: 10px;
 	}
 		background: image-url('test/questions.png');
 		width: 198px;
@@ -212,7 +240,11 @@
 
 #functionStat {
 	p{
-		font-size: 0.8em;
+		font-size: 0.75em;
+		line-height: 1.5em;
+		padding-top: 12px;
+		padding-left: 5px;
+		padding-right: 5px;
 	}
 		background: image-url('test/questions.png');
 		width: 198px;
@@ -234,6 +266,8 @@
 #socialStat {
 	p{
 		font-size: 0.75em;
+		line-height: 1.5em;
+		padding-top: 10px;
 	}
 	background: image-url('test/questions.png');
 	width: 198px;
@@ -255,9 +289,9 @@
 #contactUsTest {
 	background: image-url('test/finish.png') no-repeat;
 	width: 370px;
-	height: 230px;
+	height: 215px;
 	text-align: center;
-	padding-top: 105px;
+	padding-top: 120px;
 	padding-left: 20px;
 	padding-right: 20px;
 	color: #467373;
