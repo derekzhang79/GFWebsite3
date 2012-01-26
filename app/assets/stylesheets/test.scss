@@ -24,6 +24,42 @@
 	margin-right: auto;
 }
 
+#backToLink {
+    h3 {
+        color: #a7e169;
+        text-decoration: none;
+        font-size: 28px;
+    }
+    text-decoration: none;
+    padding-left: 25px;
+    float: right;
+    margin-top: 10px;
+	
+	&:hover {
+        h3 {
+            color: #61e191;
+            text-decoration: none;
+        }
+    &:visited {
+        text-decoration: none;
+    }
+    }
+	
+	
+    $path: 'arrowforlinks.png';
+    
+    height: image-height($path);
+    width: image-width($path)/2-30px;
+    background: image-url($path);
+    
+    &:hover {
+        background-position: image-width($path)/2;
+    }
+    &:visited {
+        text-decoration: none;
+    }
+}
+
 #happy {
     h2{
     	color: #467373;
