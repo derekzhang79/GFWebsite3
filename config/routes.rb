@@ -12,10 +12,13 @@ GFWebsite3::Application.routes.draw do
   match 'portfolio/parallax-site' => 'application#parallax-site'
   match 'portfolio/vt-surf-club' => 'application#vt-surf-club'
   match 'services' => 'application#services'
-  match 'blog' => 'application#blog'
   match 'contact' => 'application#contact'
 
   match 'submit_contact' => 'application#submit_contact'
+
+  match 'blog' => 'blog#index'
+  match 'blog/admin' => 'blog#login'
+  match 'blog/auth' => 'blog#auth'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
