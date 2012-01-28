@@ -6,24 +6,28 @@
     </div>
 
     <%= form_tag :action => 'submit_contact' do %>
-        <div class="field">
-            <%= label_tag :name, "NAME" %><br />
-            <%= text_field_tag :name %>
+        <div id="leftContactColumn">
+            <div class="field">
+                <%= label_tag :name, "NAME" %><br />
+                <%= text_field_tag :name %>
+            </div>
+        
+            <div class="field">
+                <%= label_tag :email, "COMPANY" %><br />
+                <%= text_field_tag :email %>
+            </div>
+
+            <div class="field">
+                <%= label_tag :email, "EMAIL" %><br />
+                <%= text_field_tag :email %>
+            </div>
         </div>
         
-        <div class="field">
-            <%= label_tag :email, "COMPANY" %><br />
-            <%= text_field_tag :email %>
-        </div>
-
-        <div class="field">
-            <%= label_tag :email, "EMAIL" %><br />
-            <%= text_field_tag :email %>
-        </div>
-
-        <div class="field">
-        <%= label_tag :msg, "HOW CAN WE HELP YOUR BRAND?" %><br />
-        <%= text_area_tag :msg %>
+        <div id="rightContactColumn">
+            <div class="field">
+                <%= label_tag :msg, "HOW CAN WE HELP YOUR BRAND?" %><br />
+                <%= text_area_tag :msg %>
+            </div>
         </div>
 
         <%= submit_tag "Submit", :id => 'submitButton' %>
