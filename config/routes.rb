@@ -14,6 +14,8 @@ GFWebsite3::Application.routes.draw do
   match 'services' => 'application#services'
   match 'blog' => 'application#blog'
   match 'contact' => 'application#contact'
+
+  match 'submit_contact' => 'application#submit_contact'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

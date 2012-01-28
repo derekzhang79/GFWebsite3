@@ -1,0 +1,25 @@
+<div id="contactUsForm">
+    <div id="contactUsTitle">
+        <h2>Contact Us | </h2> 
+        <h3>We promise we're nice people!</h3>
+    </div>
+
+    <%= form_tag :action => 'submit_contact' do %>
+        <div class="field">
+            <%= label_tag :name, "Name" %><br />
+            <%= text_field_tag :name %>
+        </div>
+
+        <div class="field">
+            <%= label_tag :email, "Email" %><br />
+            <%= text_field_tag :email %>
+        </div>
+
+        <div class="field">
+        <%= label_tag :msg, "How can we help you" %><br />
+        <%= text_area_tag :msg %>
+        </div>
+
+        <%= submit_tag "Submit" %>
+    <% end %>
+</div>

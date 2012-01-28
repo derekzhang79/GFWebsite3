@@ -1,0 +1,8 @@
+<div id="contact">
+    <% if flash[:submitted] %>
+        <h1>Thanks <%= flash[:name] %> for contacting us</h1>
+        <h2>Let's build something great togeather!</h2>
+    <% else %>
+        <%= render :partial => 'contact_form' %>
+    <% end %>
+</div>
