@@ -1,25 +1,33 @@
+<hr class="hrMain" />
 <div id="contactUsForm">
     <div id="contactUsTitle">
-        <h2>Contact Us | </h2> 
-        <h3>We promise we're nice people!</h3>
+        <h2>CONTACT US | </h2> 
+        <h3>WE PROMISE WE'RE NICE PEOPLE!</h3>
     </div>
 
     <%= form_tag :action => 'submit_contact' do %>
         <div class="field">
-            <%= label_tag :name, "Name" %><br />
+            <%= label_tag :name, "NAME" %><br />
             <%= text_field_tag :name %>
         </div>
-
+        
         <div class="field">
-            <%= label_tag :email, "Email" %><br />
+            <%= label_tag :email, "COMPANY" %><br />
             <%= text_field_tag :email %>
         </div>
 
         <div class="field">
-        <%= label_tag :msg, "How can we help you" %><br />
+            <%= label_tag :email, "EMAIL" %><br />
+            <%= text_field_tag :email %>
+        </div>
+
+        <div class="field">
+        <%= label_tag :msg, "HOW CAN WE HELP YOUR BRAND?" %><br />
         <%= text_area_tag :msg %>
         </div>
 
-        <%= submit_tag "Submit" %>
+        <div id="submitButton">
+            <%= submit_tag "Submit" %>
+        </div>
     <% end %>
 </div>

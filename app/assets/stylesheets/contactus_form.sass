@@ -2,16 +2,22 @@
     #contactUsTitle
         h2
             display: inline
+            font:
+                size: 36px
+            color: #a7e169
         h3
             display: inline
+            font:
+                size: 23px
 
     form
-        background-color: red
         width: 400px
 
         .field
+            color: #a7e169
             padding:
                 top: 15px
+                left: 40px
 
             input
                 width: 300px
@@ -25,3 +31,17 @@
                 height: 200px
                 font:
                     size: 25px
+                    
+                    
+                    
+    #submitButton
+        margin:
+            left: 33px
+        $path: 'gfi/webdesignquote.png'
+
+        height: image-height($path)
+        width: image-width($path)/2
+        background: image-url($path)
+
+        &:hover
+            background-position: image-width($path)/2
