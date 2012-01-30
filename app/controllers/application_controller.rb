@@ -8,4 +8,8 @@ class ApplicationController < ActionController::Base
     redirect_to :action => 'contact'
   end
 
+  def services
+    flash[:hide_service_head] = true
+  end
+
 end
