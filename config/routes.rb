@@ -23,6 +23,7 @@ GFWebsite3::Application.routes.draw do
   match 'blog/admin/edit' => 'blog#edit'
   match 'blog/admin/update' => 'blog#update'
   match 'blog/admin/new' => 'blog#new'
+  match 'blog/admin/destroy' => 'blog#destroy'
   match 'blog/admin/create' => 'blog#create'
   # The priority is based upon order of creation:
   # first created -> highest priority.

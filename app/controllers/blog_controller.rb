@@ -54,6 +54,14 @@ def create
     redirect_to :action => :list
 end
 
+#POST /blog/admin/destroy/post_id
+def destroy
+    Post.destroy(params[:id])
+
+    flash[:notice] = "Deleted post sucessfully"
+    redirect_to :action => :list
+end
+
 #POST /blog/admin/update
 def update
     @post = Post.find(params[:id])
