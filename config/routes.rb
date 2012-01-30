@@ -18,7 +18,12 @@ GFWebsite3::Application.routes.draw do
 
   match 'blog' => 'blog#index'
   match 'blog/admin' => 'blog#login'
-  match 'blog/auth' => 'blog#auth'
+  match 'blog/admin/auth' => 'blog#auth'
+  match 'blog/admin/list' => 'blog#list'
+  match 'blog/admin/edit' => 'blog#edit'
+  match 'blog/admin/update' => 'blog#update'
+  match 'blog/admin/new' => 'blog#new'
+  match 'blog/admin/create' => 'blog#create'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

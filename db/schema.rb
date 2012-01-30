@@ -16,6 +16,9 @@ ActiveRecord::Schema.define(:version => 20120128221103) do
   create_table "posts", :force => true do |t|
     t.string   "title"
     t.text     "body"
+    t.string   "photo_file_name"
+    t.string   "photo_content_type"
+    t.string   "photo_file_size"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

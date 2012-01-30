@@ -1,0 +1,22 @@
+<h1>Blog posts</h1>
+
+<!-- Notice -->
+<% if flash[:notice] %>
+    <h2><%= flash[:notice] %></h2>
+<% end %>
+
+<!-- Posts -->
+<hr class="hrMain" />
+
+<% if Post.all.empty? %>
+    <h2>No posts... Write some shit</h2>
+<% end %>
+
+<% Post.all.each do |p| %>
+    <%= link_to p.title, :action => :edit, :id => p.id %>
+    <br />
+<% end %>
+
+<!-- Link to create a new post -->
+<hr class="hrMain" />
+<%= link_to "Create a new post", :action => :new %>

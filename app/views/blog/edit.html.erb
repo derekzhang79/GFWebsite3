@@ -1,0 +1,13 @@
+<h1>Editing <%= @post.title %></h1>
+
+<%= form_for @post, :html => { :multipart => true }, :url => { :action => "update", :id => @post.id } do |f| %>
+    <%= f.text_field :title %>
+    <br />
+    <%= f.text_area :body %>
+    <br />
+    <%= image_tag @post.photo.url :med %>
+    <br />
+    <%= f.file_field :photo %>
+    <br />
+    <%= f.submit "Update" %>
+<% end %>

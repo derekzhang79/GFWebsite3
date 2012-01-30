@@ -1,11 +1,12 @@
 <div id="blog">
     <%= link_to 'XML', :action => :index, :format => :xml %>
     <div id="posts">
-        <% Post.all.each do |post| %>
+        <% Post.all.each do |p| %>
             <div class="post" %>
-                <h2><%= post.title %></h2>
-                <h3>Posted <%= time_ago_in_words post.created_at %> ago</h3>
-                <p><%= post.body %></p>
+                <h2><%= p.title %></h2>
+                <h3>Posted <%= time_ago_in_words p.created_at %> ago</h3>
+                <p><%= p.body %></p>
+                <%= image_tag p.photo.url :med %>
                 <hr class="hrMain" />
             </div>
         <% end %>
