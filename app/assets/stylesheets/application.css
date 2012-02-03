@@ -5,5 +5,14 @@
  *= require_self
  *= require nivo-slider.css
  *= require fancybox.css
- *= require_tree . 
+ *= require about.sass
+ *= require blog.sass
+ *= require contactus_form.sass
+ *= require index.sass
+ *= require layout.sass
+ *= require nivo.css
+ *= require our_process.sass
+ *= require portfolio.sass
+ *= require services.sass
+ *= require test.scss
 */

@@ -20,6 +20,7 @@ gem 'jquery-rails'
 gem 'compass'
 
 gem 'paperclip'
+gem 'browser'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
