@@ -1,12 +1,22 @@
 <div id="blog">
-    <%= link_to 'XML', :action => :index, :format => :xml %>
+    <div class="head">
+        <h1>The GFI Blog</h1>
+        <h2>(Some header info here blah blah)</h2>
+    </div>
+    <hr class="hrMain" />
     <div id="posts">
         <% Post.all.each do |p| %>
             <div class="post" %>
-                <h2><%= p.title %></h2>
-                <h3>Posted <%= time_ago_in_words p.created_at %> ago</h3>
-                <p><%= p.body %></p>
-                <%= image_tag p.photo.url :med %>
+                <%= link_to :action => 'view', :title => p.title do %>
+                    <h2 class="title"><%= p.title %></h2>
+                <% end %>
+                <h3 class="createdAt">Posted <%= time_ago_in_words p.created_at %> ago</h3>
+                <div class="body"><%= raw p.body %></div>
+                <div class="photoContainer">
+                    <a class="fancybox" rel="group" href="<%= p.photo.url %>">
+                        <%= image_tag p.photo.url :med %>
+                    </a>
+                </div>
                 <hr class="hrMain" />
             </div>
         <% end %>

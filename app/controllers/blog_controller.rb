@@ -13,6 +13,11 @@ def index
     end
 end
 
+#GET /blog/view
+def view
+    @post = Post.where(:title => params[:title]).first
+end
+
 #GET /blog/admin
 def login
 end

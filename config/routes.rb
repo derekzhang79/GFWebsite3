@@ -17,6 +17,7 @@ GFWebsite3::Application.routes.draw do
   match 'submit_contact' => 'application#submit_contact'
 
   match 'blog' => 'blog#index'
+  match 'blog/view/:title' => 'blog#view'
   match 'blog/admin' => 'blog#login'
   match 'blog/admin/auth' => 'blog#auth'
   match 'blog/admin/list' => 'blog#list'
