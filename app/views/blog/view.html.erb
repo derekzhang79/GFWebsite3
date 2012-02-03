@@ -2,13 +2,25 @@
     <div class="post">
         <h2 class="title"><%= @post.title %></h2>
         <h3 class="createdAt">Posted <%= time_ago_in_words @post.created_at %> ago</h3>
-        <div class="body"><%= raw @post.body %></div>
-        <div class="photoContainer">
-            <a class="fancybox" rel="group" href="<%= @post.photo.url %>">
-                    <%= image_tag @post.photo.url :med %>
-            </a>
 
+        <% unless @post.photo_on_top %>
+                <div class="body"><%= raw @post.body %></div>
+        <% end %>
+
+        <div class="photoContainer">
+        <% if @post.photo_gallery %>
+            <a class="fancybox" rel="group" href="<%= @post.photo.url %>">
+                <%= image_tag @post.photo.url :med %>
+            </a>
+        <% else %>
+            <a href="<%= @post.photo.url %>">
+                <%= image_tag @post.photo.url :med %>
+            </a>
+        <% end %>
         </div>
 
+        <% if @post.photo_on_top %>
+                <div class="body"><%= raw @ppost.body %></div>
+        <% end %>
     </div>
 </div>

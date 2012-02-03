@@ -8,5 +8,9 @@
     <br />
     <%= f.file_field :photo %>
     <br />
+    <%= f.select :photo_on_top, ["Photo ontop of body", "Photo below body"] %>
+    <br />
+    <%= f.select :photo_gallery, ["Show photo in lightbox", "Just open the photo"] %>
+    <br />
     <%= f.submit "Save" %>
 <% end %>

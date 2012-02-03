@@ -5,18 +5,33 @@
     </div>
     <hr class="hrMain" />
     <div id="posts">
-        <% Post.all.each do |p| %>
+        <% Post.find(:all, :order => "id DESC").each do |p| %>
             <div class="post" %>
                 <%= link_to :action => 'view', :title => p.title do %>
                     <h2 class="title"><%= p.title %></h2>
                 <% end %>
+
                 <h3 class="createdAt">Posted <%= time_ago_in_words p.created_at %> ago</h3>
-                <div class="body"><%= raw p.body %></div>
+
+                <% unless p.photo_on_top %>
+                    <div class="body"><%= raw p.body %></div>
+                <% end %>
+
                 <div class="photoContainer">
+                <% if p.photo_gallery %>
                     <a class="fancybox" rel="group" href="<%= p.photo.url %>">
                         <%= image_tag p.photo.url :med %>
                     </a>
+                <% else %>
+                    <a href="<%= p.photo.url %>">
+                        <%= image_tag p.photo.url :med %>
+                    </a>
+                <% end %>
                 </div>
+
+                <% if p.photo_on_top %>
+                    <div class="body"><%= raw p.body %></div>
+                <% end %>
                 <hr class="hrMain" />
             </div>
         <% end %>

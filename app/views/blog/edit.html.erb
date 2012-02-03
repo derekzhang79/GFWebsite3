@@ -9,6 +9,10 @@
     <br />
     <%= f.file_field :photo %>
     <br />
+    <%= f.select :photo_on_top, Post::Photo_on_top_options %>
+    <br />
+    <%= f.select :photo_gallery, Post::Photo_gallery_options %>
+    <br />
     <%= f.submit "Update" %>
 <% end %>
 
