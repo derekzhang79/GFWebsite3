@@ -16,15 +16,15 @@
 
     <!-- Recent works, etc -->
     <div id="info">
-        <a href="test"><div id="flowChart">
-        </div></a>
+        <%= link_to :action => :test do %><div id="flowChart">
+        </div><% end %>
 
         <div id="recentWorks">
             <h2>MOST RECENT PIECES</h2>
             
             <div id="previews">
-                <a href="portfolio/tai"><div id="tai"></div></a>
-                <a href="portfolio/nui"><div id="nui"></div></a>
+                <%= link_to :action => :tai do %><div id="tai"></div><% end %>
+                <%= link_to :action => :nui do %><div id="nui"></div><% end %>
             </div>
         </div>
         

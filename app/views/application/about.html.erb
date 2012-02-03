@@ -3,9 +3,9 @@
 			<p>We are Ground Floor Interactive. Our goal is to help you build your brand as quickly and easily as possible. By taking your brand from the ground floor, we will make your presence felt and have you sitting atop the hill of your company's field</p>
     
     <div id="previews">
-        <a href="about/team"><div id="teamAbout"></div></a>
-		<a href="about/location"><div id="locationAbout"></div></a>
-		<a href="services"><div id="servicesAbout"></div></a>
+        <%= link_to :action => :team do %><div id="teamAbout"></div><% end %>
+		<%= link_to :action => :location do %><div id="locationAbout"></div><% end %>
+		<%= link_to :action => :services do %><div id="servicesAbout"></div><% end %>
 		        
     </div>
     <hr class="hrMain" />

@@ -3,11 +3,11 @@
         <h1>RECENT WORKS</h1>
         
         <div id="previews">
-            <a href="portfolio/tai"><div id="tai"></div></a>
-            <a href="portfolio/nui"><div id="nui"></div></a>
-            <a href="portfolio/drexel-teacher-panel"><div id="drexelPort"></div></a>
-            <a href="portfolio/vt-surf-club"><div id="vtSurfPort"></div></a>
-            <a href="portfolio/parallax-site"><div id="oldSite"></div></a>
+            <%= link_to :action => :tai do %><div id="tai"></div><% end %>
+            <%= link_to :action => :nui do %><div id="nui"></div><% end %>
+            <%= link_to :action => :'drexel-teacher-panel' do %><div id="drexelPort"></div><% end %>
+           <%= link_to :action => :'vt-surf-club' do %><div id="vtSurfPort"></div><% end %>
+            <%= link_to :action => :'parallax-site' do %><div id="oldSite"></div><% end %>
         </div>
     </div>
     <hr class="hrMain" />
