@@ -1,6 +1,6 @@
 class BlogController < ApplicationController
 
-before_filter :check_auth, :except => [:index, :login, :auth]
+before_filter :check_auth, :except => [:index, :login, :auth, :view]
 
 #GET /blog
 def index
