@@ -8,9 +8,9 @@ GFWebsite3::Application.routes.draw do
   match 'portfolio' => 'application#portfolio'
   match 'portfolio/tai' => 'application#tai'
   match 'portfolio/nui' => 'application#nui'
-  match 'portfolio/drexel-teacher-panel' => 'application#drexel-teacher-panel'
-  match 'portfolio/parallax-site' => 'application#parallax-site'
-  match 'portfolio/vt-surf-club' => 'application#vt-surf-club'
+  match 'portfolio/drexel_teacher_panel' => 'application#drexel-teacher-panel'
+  match 'portfolio/parallax_site' => 'application#parallax-site'
+  match 'portfolio/vt_surf_club' => 'application#vt-surf-club'
   match 'services' => 'application#services'
   match 'contact' => 'application#contact'
 
