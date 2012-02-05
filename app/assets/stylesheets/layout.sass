@@ -146,3 +146,32 @@ hr.hrSub
             left: auto
             right: auto
 ////////////////////////////////////////////////////////////
+
+
+//#fbIcon
+    position: absolute
+    top: 2%
+    right: 0
+    
+    $path: 'gfi/socialicons/interactivemedias.png'
+    
+    height: image-height($path)
+    width: image-width($path)/2
+    background: image-url($path)
+    
+    &:hover
+        background-position: image-width($path)/2
+        
+//#twitterIcon
+    position: absolute
+    top: 10%
+    right: 0
+
+    $path: 'gfi/socialicons/socialmedias.png'
+
+    height: image-height($path)
+    width: image-width($path)/2
+    background: image-url($path)
+
+    &:hover
+        background-position: image-width($path)/2
