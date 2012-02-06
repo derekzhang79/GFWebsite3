@@ -13,37 +13,29 @@
     <div id="writeUp">
         <h1>NUI WEAR</h1>
             <h2>THE GOALS</h2>
-                <p>1) Create a site that allowed for site administrators to create and add original app reviews for both iPhone and Android OS.</p>
+                <p>1) Create a site with a bold style to help solidify brand recognition</p>
                 <br/>
-                <p>2) Create an automated process which enabled administrator to extract pre-existing app information from both the Android Market and iTunes App Store.</p>
+                <p>2) Allow the users to browse and purchase products in an intuitive fashion without relying on an external cumbersome ecommerce website.</p>
                 <br/>
-                <p>3) Create and implement an interactive communications campaign which will engage with users and allow for administrators to post updates for fans to see.</p>
-                <br/>
-                <p>4) Increase traffic to the site.</p>
+                <p>3) Allow the users to ‘digitally update’ the products; one of the shirts produced by NUI WEAR has a QR code that points to a URL that is configured on the site.</p>
                 <hr class="hrSub" />
-        <h2>STRATEGY</h2>
-            <p>We wanted to create a streamlined process that would allow site administrators to easily update the site with new app reviews and to be able to make changes to older app reviews.  We also wanted to allow site administrators to be able to make changes to the app categories and to the links on the navigation bar.  We wanted to utilize the space on each page for the content as well as for the ads, so that the client could maximize their ad revenue.</p>
-           <hr class="hrSub" />
-        <h2>IMPLEMENTATION</h2>
-            <h3>DESIGN</h3>
-            <p>The design we created was intended to appeal to the target audience which was 18-35 year old males.  The app squares, which were already created by the app developers, provided a colorful and fun look which we used to show that the site includes all kinds of apps.  We wanted to incorporate the app squares as much as possible to help complete the look of the site.</p>
-            <h3>DEVELOPMENT</h3>
-            <p>We developed an algorithm that extracts app descriptions from both the iTunes App Store and Android Market.  The algorithm is sophisticated enough to automatically find related apps to the original app that the administrator selects, and based on how fast the administrator would like to extract content the algorithm can bring over thousands of pages of content in less than an hour.  The next step in the process is to create a page for which the content and images can be automatically placed.  By creating a form the algorithm intelligently determines if the content is already placed on the site and then creates a new page within a predetermined category that is distinguished when extracting the information from either the Android Market or App Store.  On both the home page and category landing pages the apps that appear when users visit are randomly generated to give users a broad experience and to expose them to as many new apps as possible.  On every individual app page there is a comments plug-in which allows users to comment on the review or the app itself which automatically links to TheAppInformer’s Facebook.  Users cannot leave a comment unless they “like” TheAppInformer which is meant to increase likes.</p>
-            <h3>INTERACTIVE CAMPAIGN</h3>
-            <p>The client wanted a strong Twitter presence to be able to share when new app reviews have been added and when updates to existing apps have been made.  There are currently over 8,000 followers on Twitter for TheAppInformer with a large number of developers reaching out to request for app reviews.  There is also a large number of retweets by users who want to share reviews and information found on TheAppInformer.  We wanted to share pictures with users and followers on Facebook to visually attract new visitors to the site.  At the time of our campaign we shared as many as five tweets and posts a day which were shown to increase traffic by as much as 45% compared to days without any posts.  Our data also shows that visitors who came to the site as a result of a tweet or post were more engaged with the site and also visited three times as many pages on the site.</p>
-            <hr class="hrSub" />
+            <h2>IMPLEMENTATION</h2>
+                <h3>Design</h3>
+                    <p>The design we created sets a bold statement.  The contrasting colors and blocky design is a modern industrialesque form that really makes the site pop out.</p>
+                <h3>Development</h3>
+                    <p>We developed the site from scratch; we wanted an intuitive and fluid interface that would not frustrate customers.  Online stores are notorious for complicated checkout procedures; a complicated checkout will jeopardize sales.  We built a smooth checkout system with the option to purchase using credit or paypal; the Amazon store checkout process was our inspiration.  Alongside the checkout system, NUI WEAR needed a specialized control panel customers could use to digitally update products.  As many of NUI WEAR’s products have QR codes, one of the control panel features is the ability to change the URL which the shirt points to.</p>
+                    
+                    <hr class="hrSub" />
+
             <h2>RESULTS</h2>
-                <p>1) Currently over 5,000 apps on the site from both the Android Market and App Store</p> <br/>
-                <p>2) Easy-to-use form that allows administrator to quickly put in pictures and content for app reviews which automatically creates a new page for each</p><br/>
-                <p>3) Administrator has been able to easily change and update category pages based on traffic numbers</p><br/>
-                <p>4) Over 8,000 followers on Twitter</p><br/>
-                <p>5) Interactive campaign increased traffic steadily by at least 15% over a 6 month period</p><br/>
+                    <p>Currently NUI WEAR is still staging their business.  More to come soon.</p>
     </div>
     <%= link_to :action => :portfolio do %><div id="backToLink"><h3>BACK TO PORTFOLIO</h3></div><% end %>
-    <div id="contactBox">
+    <%= link_to :action => :contact do %><div id="contactBox">
         <h3>Let's get the ball rollin'</h3>
             <p>We can help your business as much as we helped them!</p>
     </div>
+    <% end %>
 </div>
 
 <hr class="hrMain" />
