@@ -5,6 +5,7 @@ class ApplicationController < ActionController::Base
     info = { :name => params[:name], :email => params[:email], :msg => params[:msg] }
     flash[:submitted] = true
     flash[:name] = params[:name]
+    ContactMailer.contact_us info
     redirect_to :action => 'contact'
   end
 
