@@ -57,4 +57,19 @@ GFWebsite3::Application.configure do
 
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
+
+  # ActionMailer
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.raise_delivery_errors = true
+  ActionMailer::Base.delivery_method = :smtp
+  ActionMailer::Base.smtp_settings = {
+      :enable_starttls_auto => true,
+      :address => "smtp.gmail.com",
+      :port => 587,
+      :domain => "gndfloor.com",
+      :authentication => :plain,
+      :user_name => "contactm@gndfloor.com",
+      :password => "17532Edin"
+  }
+
 end

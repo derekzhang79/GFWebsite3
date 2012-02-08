@@ -1,7 +1,8 @@
 class ContactMailer < ActionMailer::Base
-  default :to => 'contact@gndfloor.com'
+  default :to => "contact@gndfloor.com"
+
   def contact_us(info)
     @info = info
-    mail(:from => info[:email], :subject => "Contact Form Submission")
+    mail(:from => "null@hull.com", :subject => "Contact Form Submission")
   end
 end
