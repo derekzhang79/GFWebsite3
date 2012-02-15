@@ -1,6 +1,19 @@
 <div id="contact">
     <% if flash[:submitted] %>
-        <h1>Thanks <%= flash[:name] %> for contacting us</h1>
-    <% end %>
+    <div id="thanks">
+        <h3>We've received your info, <%= flash[:name] %> of <%= flash[:company] %>, thanks for contacting us, prepare yourself to get your brand off the ground, we're going to look over your specs and get back to you soon!</h3>
+    </div>
+        
+        <div id="footer">
+            <p>DIGITAL BRANDING</p>
+            <p>WEB DESIGN</p>
+            <p>WEB DEVELOPMENT</p>
+            <p>INTERACTIVE</p>
+            <hr class="hrSub" />
+            <p>LOCATION: TAMPA FL, BLACKSBURG VA</p>
+            <p>Ground Floor Interactive, LLC all rights reserved 2012</p>
+        </div>
+    <% else %>
     <%= render :partial => 'contact_form' %>
+    <% end %>
 </div>
