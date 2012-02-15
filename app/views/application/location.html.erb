@@ -1,23 +1,35 @@
-<div id="slideshow">
-    <div id="wrapper">
-    <div class="slider-wrapper theme-gfi">
-        <div id="slider" class="nivoSlider">
-			<%= image_tag 'gfi/about/tampawebdesign.jpg', {"data-transition" => "fade"} %>
-            <%= image_tag 'gfi/about/blacksburghwebdesign.jpg', {"data-transition" => "fade"} %>
+<div id="location">
+    <div id="iPad">
+        <div id="homeButton"></div>
+        <div id="lockScreen" class="screen">
+            <div id="lock"></div>
+        </div>
+        
+        <div id="locationScreen" class="screen">
+            <div id="bbpin" class="pin">
+                <div class="popup">
+                    <div class="x"></div>
+                </div>
+            </div>
+            <div id="tampapin" class="pin">
+                <div class="popup">
+                    <div class="x"></div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
 
-<hr class="hrMain" />
-<div id="teamSection">
-    <div id="tampaLocation">
-        <h2>TAMPA, FLORIDA</h2>
-        <p>Our main office is placed in the heart of Florida in Tampa.</p> 
+    <hr class="hrMain" />
+    <div id="teamSection">
+        <div id="tampaLocation">
+            <h2>TAMPA, FLORIDA</h2>
+            <p>Our main office is placed in the heart of Florida in Tampa.</p> 
+        </div>
+        <div id="vaLocation">
+            <h2>BLACKSBURG, VIRGINIA</h2>
+            <p>Our satellite office is placed in the heart of Virginia in Blacksburg.</p>
+        </div>
     </div>
-    <div id="vaLocation">
-        <h2>BLACKSBURG, VIRGINIA</h2>
-        <p>Our satellite office is placed in the heart of Virginia in Blacksburg.</p>
-    </div>
+    <hr class="hrMain" />
+    <%= render :partial => 'contact_form' %>
 </div>
-<hr class="hrMain" />
-<%= render :partial => 'contact_form' %>
