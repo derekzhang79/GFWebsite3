@@ -8,3 +8,4 @@
 //=require jquery.nivo.slider
 //=require jquery.fancybox
 //= require_tree .
+//= require css3-mediaqueries.js

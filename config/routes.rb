@@ -11,6 +11,7 @@ GFWebsite3::Application.routes.draw do
   match 'portfolio/drexel_teacher_panel' => 'application#drexel_teacher_panel'
   match 'portfolio/parallax_site' => 'application#parallax_site'
   match 'portfolio/vt_surf_club' => 'application#vt_surf_club'
+  match 'packages' => 'application#packages'
   match 'services' => 'application#services'
   match 'contact' => 'application#contact'
 

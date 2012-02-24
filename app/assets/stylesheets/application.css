@@ -15,4 +15,8 @@
  *= require portfolio.sass
  *= require services.sass
  *= require test.scss
+ *= require ie.css
+ *= require 1140.css
+ *= require styles.css
+ *= require packages.sass
 */
