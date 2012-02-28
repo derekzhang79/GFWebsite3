@@ -1,18 +1,18 @@
 <div id="index">
+    <%= render :partial => 'fb' %>
     <div id="slideshow">
         <div id="wrapper">
         <div class="slider-wrapper theme-gfi">
             <div id="slider" class="nivoSlider">
-			    <%= image_tag 'gfi/slideshow/interactivemedia.jpg', {"data-transition" => "boxRainGrow"} %>
-                <%= image_tag 'gfi/slideshow/design.jpg', {"data-transition" => "boxRandom"} %>
-                <%= image_tag 'gfi/slideshow/development.jpg', {"data-transition" => "fade"} %>
-                <%= image_tag 'gfi/slideshow/branding.jpg', {"data-transition" => "fold"} %>
+			    <%= image_tag 'gfi/slideshow/interactivemedia.jpg', :alt => 'Web Design Tampa', "data-transition" => "boxRainGrow" %>
+                <%= image_tag 'gfi/slideshow/design.jpg', :alt => 'Website Design Tampa', "data-transition" => "boxRandom" %>
+                <%= image_tag 'gfi/slideshow/development.jpg', :alt => 'Web Design Tampa', "data-transition" => "fade" %>
+                <%= image_tag 'gfi/slideshow/branding.jpg', :alt => 'Website Design Tampa', "data-transition" => "fold" %>
             </div>
         </div>
         </div>
     </div>
 
-    <%= render :partial => 'fb' %>
     <hr class="hrMain" />
     <%= render :partial => 'package' %>
     <hr class="hrMain" />
