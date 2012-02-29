@@ -27,6 +27,11 @@ GFWebsite3::Application.routes.draw do
   match 'blog/admin/new' => 'blog#new'
   match 'blog/admin/destroy' => 'blog#destroy'
   match 'blog/admin/create' => 'blog#create'
+
+  match 'tampa-qr' => 'application#packages'
+  match 'email-qr' => 'application#packages'
+  match 'blacksburg-qr' => 'application#packages'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
