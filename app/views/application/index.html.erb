@@ -1,16 +1,18 @@
 <div id="index">
-    <%= render :partial => 'fb' %>
     <div id="slideshow">
         <div id="wrapper">
         <div class="slider-wrapper theme-gfi">
             <div id="slider" class="nivoSlider">
-			    <%= image_tag 'gfi/slideshow/interactivemedia.jpg', :alt => 'Web Design Tampa', "data-transition" => "boxRainGrow" %>
-                <%= image_tag 'gfi/slideshow/design.jpg', :alt => 'Website Design Tampa', "data-transition" => "boxRandom" %>
+			    <%= link_to :action => :packages do %><%= image_tag 'gfi/slideshow/interactivemedia.jpg', :alt => 'Web Design Tampa', :title => '#htmlcaption', "data-transition" => "boxRainGrow" %><% end %>
+                <%= link_to :action => :packages do %><%= image_tag 'gfi/slideshow/design.jpg', :title => '#htmlcaption', :alt => 'Website Design Tampa', "data-transition" => "boxRandom" %><% end %>
                 <%= image_tag 'gfi/slideshow/development.jpg', :alt => 'Web Design Tampa', "data-transition" => "fade" %>
                 <%= image_tag 'gfi/slideshow/branding.jpg', :alt => 'Website Design Tampa', "data-transition" => "fold" %>
             </div>
         </div>
         </div>
+    </div>
+    <div id="htmlcaption" class="nivo-html-caption">
+        <%= link_to :action => :packages do %>CLICK HERE TO SEE OUR PACKAGES AND CASH IN ON THIS GREAT DEAL!<% end %>
     </div>
 
     <hr class="hrMain" />
