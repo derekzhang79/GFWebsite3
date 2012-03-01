@@ -1,29 +1,29 @@
-<div id="contactUsForm">
-    <div id="contactUsTitle">
+<div id="contactUsFormIE">
+    <div id="contactUsTitleIE">
         <h2>CONTACT US | </h2> 
         <h3>WE PROMISE WE'RE NICE PEOPLE!</h3>
     </div>
 
     <%= form_tag :action => 'submit_contact' do %>
-        <div id="leftContactColumn">
-            <div class="field">
+        <div id="leftContactColumnIE">
+            <div class="fieldIE">
                 <%= label_tag :name, "NAME" %><br />
                 <%= text_field_tag :name %>
             </div>
         
-            <div class="field">
+            <div class="fieldIE">
                 <%= label_tag :company, "COMPANY" %><br />
                 <%= text_field_tag :company %>
             </div>
 
-            <div class="field">
+            <div class="fieldIE">
                 <%= label_tag :email, "EMAIL" %><br />
                 <%= text_field_tag :email %>
             </div>
         </div>
         
-        <div id="rightContactColumn">
-            <div class="field">
+        <div id="rightContactColumnIE">
+            <div class="fieldIE">
                 <%= label_tag :msg, "YOUR PROJECT'S NEEDS" %><br />
                 <p>NOT SURE EXACTLY? LEAVE IT BLANK AND WE'LL FIGURE IT OUT TOGETHER!</p>
                 <%= text_area_tag :msg %>
@@ -43,3 +43,5 @@
     <p>LOCATION: TAMPA FL, BLACKSBURG VA</p>
     <p>Ground Floor Interactive, LLC all rights reserved 2012</p>
 </div>
+
+<div id="bottomPad"><p></p></div>

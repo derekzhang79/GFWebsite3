@@ -2,7 +2,6 @@
     margin:
         left: 20px
     float: left
-    height: 370px
     #contactUsTitle
         margin:
             left: -20px
@@ -63,6 +62,7 @@
         margin:
             left: -7px
             top: 10px
+        float: left
         $path: 'gfi/webdesignquote.png'
         color: transparent
 
@@ -74,6 +74,88 @@
 
         &:hover
             background-position: image-width($path)/2
+            
+/////////////IE/////////////////////          
+
+#contactUsFormIE
+    margin:
+        left: 20px
+    float: left
+    width: 700px
+    #contactUsTitleIE
+        margin:
+            left: -20px
+        h2
+            display: inline
+        h3
+            display: inline
+                
+    #leftContactColumnIE
+        float: left
+        width: 700px
+        
+        .fieldIE
+            color: #a7e169
+            padding:
+                top: 5px
+
+            //name, email, etc.
+            input
+                width: 700px
+                height: 20px
+                font:
+                    size: 15px
+
+    #rightContactColumnIE
+        float: left
+        width: 700px
+        
+        .fieldIE
+            p
+                font:
+                    size: 15px
+                color: #61E191
+                line-height: 17px
+                margin:
+                    top: -5px
+                padding:
+                    left: 5px
+                    right: 50px
+            color: #a7e169
+            padding:
+                top: 5px
+                bottom: 10px
+
+            //body
+            textarea
+                resize: none
+                width: 700px
+                height: 100px
+                font:
+                    size: 15px
+
+    form
+        width: 85%
+                    
+         
+    #submitButton
+        margin:
+            left: -7px
+            top: -5px
+        float: left
+        $path: 'gfi/webdesignquote.png'
+        color: transparent
+
+        height: image-height($path)
+        width: image-width($path)/2
+        background: image-url($path)
+        border: none
+        cursor: pointer
+
+        &:hover
+            background-position: image-width($path)/2
+            
+        
             
             
             
@@ -100,6 +182,9 @@
     float: left
     width: 65%
     
-    
+#bottomPad
+    width: 100px
+    height: 70px
+    float: left
     
     
