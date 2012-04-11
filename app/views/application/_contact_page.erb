@@ -1,29 +1,31 @@
-<div id="contactUsFormIE">
-    <div id="contactUsTitleIE">
+<div id="contactBrandCLoud"></div>
+
+<div id="contactUsFormC">
+    <div id="contactUsTitleC">
         <h2>CONTACT US AT: </h2> 
         <a href= "mailto:contact@gndfloor.com"><h3>CONTACT@gndfloor.com</h3></a>
     </div>
 
     <%= form_tag :action => 'submit_contact' do %>
-        <div id="leftContactColumnIE">
-            <div class="fieldIE">
+        <div id="leftContactColumnC">
+            <div class="fieldC">
                 <%= label_tag :name, "NAME" %><br />
                 <%= text_field_tag :name %>
             </div>
         
-            <div class="fieldIE">
+            <div class="fieldC">
                 <%= label_tag :company, "COMPANY" %><br />
                 <%= text_field_tag :company %>
             </div>
 
-            <div class="fieldIE">
+            <div class="fieldC">
                 <%= label_tag :email, "EMAIL" %><br />
                 <%= text_field_tag :email %>
             </div>
         </div>
         
-        <div id="rightContactColumnIE">
-            <div class="fieldIE">
+        <div id="rightContactColumnC">
+            <div class="fieldC">
                 <%= label_tag :msg, "YOUR PROJECT'S NEEDS" %><br />
                 <p>NOT SURE EXACTLY? LEAVE IT BLANK!</p>
                 <%= text_area_tag :msg %>

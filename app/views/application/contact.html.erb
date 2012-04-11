@@ -1,9 +1,4 @@
 <div id="contact">
-    <div id="promoPicLeft"><%= image_tag (asset_path 'gfi/packages/designpromo.gif'), :alt => 'Web Design Cost' %></div>
-    
-    <!-- marketing online pkg -->
-    <div id="promoPicRight"><%= image_tag (asset_path 'gfi/packages/socialpromo.gif'), :alt => 'Web Design Prices' %></div>
-    
     <% if flash[:submitted] %>
     <div id="thanks">
         <h3>We've received your info, <span class="colorTurq"><%= flash[:name] %> of <%= flash[:company] %></span>. Thanks for contacting us!  Prepare yourself to get your brand off the ground, we're going to look over your specs and get back to you soon!</h3>
@@ -18,6 +13,6 @@
             <p>Ground Floor Interactive, LLC all rights reserved 2012</p>
         </div>
     <% else %>
-    <%= render :partial => 'contact_form' %>
+    <%= render :partial => 'contact_page' %>
     <% end %>
 </div>
