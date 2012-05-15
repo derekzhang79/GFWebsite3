@@ -31,8 +31,6 @@ GFWebsite3::Application.routes.draw do
   match 'tampa-qr' => 'application#packages'
   match 'email-qr' => 'application#packages'
   match 'blacksburg-qr' => 'application#packages'
-  
-  match 'testapp' => 'test#testapp'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
